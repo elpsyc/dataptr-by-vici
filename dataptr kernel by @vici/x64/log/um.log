@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(498,5): warning MSB8004: Intermediate ディレクトリの末尾がスラッシュではありません。Intermediate ディレクトリが適切に評価されるようにするために、このビルド インスタンスによってスラッシュが追加されます。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output ディレクトリの末尾がスラッシュではありません。Output ディレクトリが適切に評価されるようにするために、このビルド インスタンスによってスラッシュが追加されます。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中間ディレクトリ (..\x64\log\) に別のプロジェクト (kernel.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  driver.cpp
+C:\Users\2004\Desktop\dataptr kernel by @vici._._\usermode\driver.cpp(52,9): warning C4244: 'return': 'uintptr_t' から 'uint32_t' への変換です。データが失われる可能性があります。
+C:\Users\2004\Desktop\dataptr kernel by @vici._._\usermode\driver.cpp(58,21): warning C4244: '=': 'DWORD64' から 'ULONG' への変換です。データが失われる可能性があります。
+C:\Users\2004\Desktop\dataptr kernel by @vici._._\usermode\driver.cpp(72,21): warning C4244: '=': 'DWORD64' から 'ULONG' への変換です。データが失われる可能性があります。
+C:\Users\2004\Desktop\dataptr kernel by @vici._._\usermode\driver.cpp(85,21): warning C4244: '=': 'DWORD64' から 'ULONG' への変換です。データが失われる可能性があります。
+C:\Users\2004\Desktop\dataptr kernel by @vici._._\usermode\driver.cpp(101,21): warning C4244: '=': 'DWORD64' から 'ULONG' への変換です。データが失われる可能性があります。
+  main.cpp
+C:\Users\2004\Desktop\dataptr kernel by @vici._._\usermode\main.cpp(10,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'DWORD64' です
+C:\Users\2004\Desktop\dataptr kernel by @vici._._\usermode\main.cpp(10,9): message : 書式文字列に '%lld' を使用することをお勧めします
+C:\Users\2004\Desktop\dataptr kernel by @vici._._\usermode\main.cpp(10,9): message : 書式文字列に '%Id' を使用することをお勧めします
+C:\Users\2004\Desktop\dataptr kernel by @vici._._\usermode\main.cpp(10,9): message : 書式文字列に '%I64d' を使用することをお勧めします
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+  All 20 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  um.vcxproj -> C:\Users\2004\Desktop\dataptr kernel by @vici._._\x64\usermode.exe
